@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingePop.WebAPI", "BingePop.WebAPI\BingePop.WebAPI.csproj", "{803397FA-6D2B-45CC-BAD5-59F53C0297C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingePop.Data", "BingePop.Data\BingePop.Data.csproj", "{4723710A-291D-4B2E-81A3-C274442CFF62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingePop.Models", "BingePop.Models\BingePop.Models.csproj", "{2E53F8AB-0334-4C14-9FD2-46FF8E802BB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingePop.Services", "BingePop.Services\BingePop.Services.csproj", "{90D8D901-7375-419D-BBD6-7C499F539D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{803397FA-6D2B-45CC-BAD5-59F53C0297C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803397FA-6D2B-45CC-BAD5-59F53C0297C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803397FA-6D2B-45CC-BAD5-59F53C0297C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803397FA-6D2B-45CC-BAD5-59F53C0297C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4723710A-291D-4B2E-81A3-C274442CFF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4723710A-291D-4B2E-81A3-C274442CFF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4723710A-291D-4B2E-81A3-C274442CFF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4723710A-291D-4B2E-81A3-C274442CFF62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E53F8AB-0334-4C14-9FD2-46FF8E802BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E53F8AB-0334-4C14-9FD2-46FF8E802BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E53F8AB-0334-4C14-9FD2-46FF8E802BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E53F8AB-0334-4C14-9FD2-46FF8E802BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D8D901-7375-419D-BBD6-7C499F539D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D8D901-7375-419D-BBD6-7C499F539D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D8D901-7375-419D-BBD6-7C499F539D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D8D901-7375-419D-BBD6-7C499F539D61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7596A946-0D2F-4C64-A4DB-6C4B3A253D88}
+	EndGlobalSection
+EndGlobal
