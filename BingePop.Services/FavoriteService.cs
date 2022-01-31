@@ -15,6 +15,7 @@ namespace BingePop.Services
         public FavoriteService(Guid userId) // constructor
         {
             _userId = userId;
+
         }
 
         public bool CreateFavorite(FavoriteCreate model)
