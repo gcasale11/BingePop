@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BingePop.Data
 {
-    public class Favorite
+    public class Favorite : MaturityRate
     {
         [Key]
         public int ContentId { get; set; }
