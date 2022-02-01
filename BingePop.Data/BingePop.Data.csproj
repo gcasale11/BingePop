@@ -90,6 +90,7 @@
     <Compile Include="MaturityRate.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WatchHistory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
