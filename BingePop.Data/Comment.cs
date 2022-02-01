@@ -9,5 +9,7 @@ namespace BingePop.Data
 {
     public class Comment
     {
+        //test comment
+        public int MyProperty { get; set; }
     }
 }
