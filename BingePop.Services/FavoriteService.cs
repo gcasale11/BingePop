@@ -27,6 +27,7 @@ namespace BingePop.Services
                     Title = model.Title,
                     Content = model.Content,
                     ContentType = model.ContentType,
+
                     CreatedUtc = DateTimeOffset.Now,
                     //CategoryId = model.CategoryId
                 };
@@ -61,7 +62,9 @@ namespace BingePop.Services
                             );
                 return query.ToArray();
             }
+
         }
+
 
         public FavoriteDetail GetFavoriteById(int id)
         {
