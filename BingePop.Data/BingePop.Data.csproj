@@ -85,6 +85,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="Awards.cs" />
+    <Compile Include="Comment.cs" />
     <Compile Include="Favorite.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="MaturityRate.cs" />
