@@ -12,5 +12,9 @@ namespace BingePop.Data
 
         public string TvRating { get; set; }
 
+        public string Subscription { get; set; }
+
+        public string TvTitle { get; set; }
+
     }
 }
