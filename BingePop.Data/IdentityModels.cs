@@ -26,6 +26,7 @@ namespace BingePop.Data
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext, BingePop.Data.Migrations.Configuration>());
         }
 
         public static ApplicationDbContext Create()
@@ -34,11 +35,9 @@ namespace BingePop.Data
         }
 
         //whatever classes we wil have
-       // public DbSet<TvShow> TvShows { get; set; }
-       // public DbSet<Movie> Movies { get; set; }
-       // public DbSet<Rating> Ratings { get; set; }
+
         public DbSet<Favorite> Favorites { get; set; }
-       // public DbSet<WatchList> WatchLists { get; set; }
+         develop
         //public DbSet<Comment> Comments { get; set; }
 
     

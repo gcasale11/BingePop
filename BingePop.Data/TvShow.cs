@@ -9,7 +9,9 @@ namespace BingePop.Data
 {
     public class TvShow
     {
-        
-        
+        [Key]
+
+        public int TvShowId { get; set; }
+
     }
 }
