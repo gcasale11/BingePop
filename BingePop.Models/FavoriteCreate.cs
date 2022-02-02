@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BingePop.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -23,5 +24,9 @@ namespace BingePop.Models
 
         [Display(Name = "Date Created")]
         public DateTimeOffset CreatedUtc { get; set; }
+
+        [Required]
+        public MatureAudRate MatureRate { get; set; }
+
     }
 }

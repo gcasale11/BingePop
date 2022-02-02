@@ -1,4 +1,5 @@
-﻿using BingePop.Models;
+﻿using BingePop.Data;
+using BingePop.Models;
 using BingePop.Services;
 using Microsoft.AspNet.Identity;
 using System;
@@ -32,8 +33,9 @@ namespace BingePop.WebAPI.Controllers
         {
             FavoriteService favoriteService = CreateFavoriteService();
             var favorites = favoriteService.GetFavorites();
+            List<Favorite> list = (List<Favorite>)favorites;
 
-            return Ok(favorites);
+            return Ok(list);
         }
 
         private FavoriteService CreateFavoriteService()

@@ -55,13 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommentService.cs" />
     <Compile Include="FavoriteService.cs" />
-    <Compile Include="MovieService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RatingService.cs" />
-    <Compile Include="TvShowService.cs" />
-    <Compile Include="WatchListService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
