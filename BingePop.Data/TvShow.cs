@@ -9,7 +9,7 @@ namespace BingePop.Data
 {
     public class TvShow
     {
-        
-        
+        public string TvRating { get; set; }
+
     }
 }
