@@ -85,14 +85,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="Awards.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="Favorite.cs" />
     <Compile Include="IdentityModels.cs" />
-    <Compile Include="Movie.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rating.cs" />
-    <Compile Include="TvShow.cs" />
-    <Compile Include="WatchList.cs" />
+  develop
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
