@@ -9,6 +9,8 @@ namespace BingePop.Data
 {
     public class WatchList
     {
+
         public int MyProperty { get; set; }
+        public int test { get; set; }
     }
 }
