@@ -12,5 +12,6 @@ namespace BingePop.Data
         [Key]
 
         public int TvShowId { get; set; }
+
     }
 }
